@@ -17,6 +17,7 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
 
+      <div className="columns-3">
       <LightGallery mode="lg-fade" plugins={[lgZoom]}>
         <a
           data-lg-size="1406-1390"
@@ -54,6 +55,7 @@ export default function Home() {
           />
         </a>
       </LightGallery>
+      </div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
